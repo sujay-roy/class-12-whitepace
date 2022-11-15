@@ -47,6 +47,30 @@ body{
 .header-area .theme-button-two{
     margin-left: 24px;
 }
+
+.theme-text h3{
+    font-size: 62px;
+    margin-bottom: 15px;
+}
+
+.theme-text h3 span{
+    position: relative;
+    z-index: 1;
+}
+.theme-text h3 span::after{
+    position: absolute;
+    content: "" ;
+    width: 100%;
+    height: 65px;
+    left: 0;
+    bottom: 0px;
+    z-index: -1;
+    background-image: url(picture/element.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
 /* header area */
 .header-area{
     background-color: #043873;
@@ -135,4 +159,44 @@ line-height: 77px;
     margin-bottom: 50px;
 
     }
+}
+
+/* management area css */
+.management-area{
+        padding: 140px 0;
+        background: #fff;
+        color: #212529;
+    }
+
+.management-area .theme-button{
+    margin-top: 30px;
+    color: #fff;
+}
+.work-management{
+    margin-top: 100px;
+}
+
+@media (max-width: 991px){
+    .management-area{
+        padding: 80px 0;
+    }
+    .work-management{
+        margin-top: 60px;
+    }
+
+    .theme-text{
+        text-align: center;
+    }
+
+    .theme-text h3{
+        font-size: 36px;
+        
+    }
+
+   .project-management .theme-button{
+    margin-bottom: 50px;}
+
+    .work-management .theme-text{
+        margin-bottom: 50px;}
+
 }
