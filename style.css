@@ -309,3 +309,36 @@ line-height: 77px;
             margin-bottom: 30px;
         }
     }
+
+
+    /* your-work-area css */
+
+    .your-work-area{
+            background:#043873;
+            padding: 140px 0;
+            color: #fff;
+    }
+
+
+    /* your-data-area css */
+
+    .your-data-area{
+        background-color: #fff;
+            padding: 140px 0;
+            color:#212529;
+
+    }
+    .your-data-area .theme-button{
+        color: #fff;
+    }
+
+
+    @media (max-width: 991px){
+        .your-data-area{
+            padding: 80px 0;
+        }
+
+        .your-data-area .data-image{
+            margin-bottom: 50px;
+        }
+    }
