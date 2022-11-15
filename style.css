@@ -342,3 +342,31 @@ line-height: 77px;
             margin-bottom: 50px;
         }
     }
+
+    /* sponsor-area */
+
+    .sponsor-area{
+        background-color: #fff;
+            padding: 140px 0;
+            color:#212529;
+    }
+    .sponsor-area .theme-text{
+        margin-bottom: 80px;
+    }
+    .single-sponsor img{
+        height: 50px;
+        width: auto;
+    }
+
+    @media (max-width: 991px){
+        .sponsor-area{
+            padding-top: 80px;
+            padding-bottom: 30px;
+        }
+        .sponsor-area .theme-text{
+            margin-bottom: 50px;
+        }
+        .single-sponsor{
+            margin-bottom: 50px;
+        }
+    }
