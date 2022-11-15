@@ -370,3 +370,30 @@ line-height: 77px;
             margin-bottom: 50px;
         }
     }
+
+    /* app-area css */
+    .app-area{
+        padding: 140px 0;
+        background-image: url(picture/app-background.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .app-area .theme-text{
+        margin-left: 100px;
+    }
+
+    @media (max-width: 991px){
+        .app-area{
+            padding-top: 80px;
+            padding-bottom: 50px;
+        }
+
+        .app-area .theme-text{
+            margin-left: 0px;
+        }
+        .app-area .app-image{
+            margin-bottom: 50px;
+        }
+
+    }
