@@ -21,20 +21,19 @@ body{
     font-size: 18px;
     background-color: blueviolet;
     color: #fff;
+    line-height: 1.7;
 }
 .theme-button{
     display: inline-block;
     background: #4F9CF9;
     border-radius: 8px;
     padding: 16px 24px !important;
-    margin-left: 24px;
 }
 .theme-button-two{
     display: inline-block;
     background: #FFE492;
     border-radius: 8px;
     padding: 16px 24px !important;
-    margin-left: 24px;
     color:#043873 !important;
     
 }
@@ -42,6 +41,12 @@ body{
     margin-left: 10px;
 }
 
+.header-area .theme-button {
+    margin-left: 24px;
+}
+.header-area .theme-button-two{
+    margin-left: 24px;
+}
 /* header area */
 .header-area{
     background-color: #043873;
@@ -84,5 +89,50 @@ body{
         right: 12px;
         top: 50%;
         transform: translateY(-50%);
+    }
+    .header-area .theme-button {
+        margin-left: 0;
+    }
+    .header-area .theme-button-two{
+        margin-left: 0;
+    }
+}
+
+/* hero css */
+
+.hero-area{
+    padding: 140px 0;
+    background-image: url(picture/hero-background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-text h3{
+    font-weight: 700;
+font-size: 52px;
+line-height: 77px;
+}
+.hero-area .theme-button{
+    margin-top: 30px;
+}
+
+
+@media (max-width: 991px){
+    .hero-area{
+        padding: 80px 0;
+    }
+
+    .hero-text{
+        text-align: center;
+    }
+
+    .hero-text h3{
+        font-size: 36px;
+        
+    }
+
+   .hero-area .theme-button{
+    margin-bottom: 50px;
+
     }
 }
