@@ -45,7 +45,7 @@ body{
     border-radius: 8px;
     padding: 16px 24px !important;
 }
-.theme-button img{
+.theme-button i{
     margin-left: 10px;
 }
 
@@ -184,6 +184,12 @@ line-height: 77px;
     margin-top: 100px;
 }
 
+.work-management .theme-text h3 span::after{
+    background-image: url(picture/work\ element.png);
+    background-size: contain;
+    background-position: bottom;
+}
+
 @media (max-width: 991px){
     .management-area{
         padding: 80px 0;
@@ -215,6 +221,11 @@ line-height: 77px;
     padding: 140px 0;
 
 }
+.extension-area .theme-text h3 span::after{
+    background-image: url(picture/work\ element.png);
+    background-size: contain;
+    background-position: bottom;
+}
 
 @media (max-width: 991px){
     .extension-area{
@@ -234,6 +245,11 @@ line-height: 77px;
  .Customise-area .theme-button{
         color: #fff;
     }
+    .Customise-area .theme-text h3 span::after{
+        background-image: url(picture/work\ element.png);
+        background-size: contain;
+        background-position: bottom;
+    }
 
     @media (max-width: 991px){
         .Customise-area{
@@ -252,6 +268,11 @@ line-height: 77px;
     }
     .priceing-area .theme-text{
         margin-bottom: 60px;
+    }
+    .priceing-area .theme-text h3 span::after{
+        background-image: url(picture/work\ element.png);
+        background-size: contain;
+        background-position: bottom;
     }
 
     .single-price{
@@ -281,6 +302,11 @@ line-height: 77px;
     }
     .single-price ul li:last-child{
         margin: 0;
+    }
+
+    .single-price img{
+        height: 21px !important;
+        width: 21px !important;
     }
     .single-price .theme-button{
         color: #fff;
@@ -318,6 +344,11 @@ line-height: 77px;
             padding: 140px 0;
             color: #fff;
     }
+    .your-work-area .theme-text h3 span::after{
+        background-image: url(picture/your\ work\ elemint.png);
+        background-size: contain;
+        background-position: bottom;
+    }
 
 
     /* your-data-area css */
@@ -330,6 +361,11 @@ line-height: 77px;
     }
     .your-data-area .theme-button{
         color: #fff;
+    }
+    .your-data-area .theme-text h3 span::after{
+        background-image: url(picture/work\ element.png);
+        background-size: contain;
+        background-position: bottom;
     }
 
 
@@ -356,6 +392,11 @@ line-height: 77px;
     .single-sponsor img{
         height: 50px;
         width: auto;
+    }
+    .sponsor-area .theme-text h3 span::after{
+        background-image: url(picture/work\ element.png);
+        background-size: contain;
+        background-position: bottom;
     }
 
     @media (max-width: 991px){
@@ -405,20 +446,33 @@ line-height: 77px;
             padding: 140px 0;
             color:#212529;
     }
+
+    .testimonial-area .theme-text h3 span::after{
+        background-image: url(picture/says\ elemint.png);
+        background-size: contain;
+        background-position: bottom;
+
+    }
     .testimonial-area .theme-text{
         margin-bottom: 50px;
     }
 
     .single-testimonial{
-        background: #FFFFFF;
+        background: #4F9CF9;
         box-shadow: 15px 10px 50px rgba(0, 0, 0, 0.1);
         border-radius: 10px;
         padding: 50px 25px;
+        color: #fff;
+        transition: .3s;
+    }
+    .single-testimonial:hover{
+        background-color: #fff;
         color: #212529;
+        cursor: pointer;
     }
 
     .testimonial-text{
-        border-bottom: 1px solid #212529;
+        border-bottom: 1px solid #fff;
     }
 
     .testimonial-text i{
@@ -440,6 +494,7 @@ line-height: 77px;
 
     .auther-text h5{
         font-size: 18px;
+        color: #212529;
     }
      .auther-text p{
          margin-bottom: 0;
